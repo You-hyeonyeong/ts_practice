@@ -15,7 +15,7 @@ function refresh() :void {
     input.focus();
 }
 chooseNUmber();
-console.log(array);
+//console.log(array);
 
 const result = document.createElement('h1');
 body.append(result);
