@@ -16,7 +16,7 @@ var score = {
     PAPER: -1
 };
 //실수로 바꾸는것을 막아주는 as const
-//rsp.ROCK = '9';
+//rsp.ROCK = '9'; 
 var imgCoords = '0'; //string 보다 좁은 범위로 설정해줘야함
 function computerChoice(imgCoords) {
     return Object.keys(rsp).find(function (k) { return rsp[k] === imgCoords; });
